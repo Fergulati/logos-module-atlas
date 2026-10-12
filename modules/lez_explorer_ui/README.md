@@ -8,19 +8,19 @@
 | Type | `ui_qml` · interface `universal` · qml+c++ |
 | Stack | [blockchain-lez](../../stacks/blockchain-lez.md) · category `explorer` |
 | Availability | installable from the default catalog *Logos Official* |
-| Catalog version | **1.2.0** (released 2026-10-02) · all: 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.0 |
+| Catalog version | **1.2.2** (released 2026-10-12) · all: 1.2.2, 1.2.1, 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.0 |
 | Platforms | darwin-arm64, linux-amd64, linux-arm64 |
-| Package | [lez_explorer_ui-v1.2.0](https://github.com/logos-co/logos-modules-release/releases/download/lez_explorer_ui-v1.2.0/lez_explorer_ui-1.2.0.lgx) · sha256 `742a0bc0c1b21459…` |
-| Source | [logos-blockchain/lez-explorer-ui@69b7120](https://github.com/logos-blockchain/lez-explorer-ui/tree/69b7120baf723d74be65aa8c12c865d94f742966) |
-| Pinned by | logos-co/logos-modules-release@3ba43d6ebeba submodules/lez-explorer-ui (tag lez_explorer_ui-v1.2.0) |
+| Package | [lez_explorer_ui-v1.2.2](https://github.com/logos-co/logos-modules-release/releases/download/lez_explorer_ui-v1.2.2/lez_explorer_ui-1.2.2.lgx) · sha256 `89ea8295a32cb620…` |
+| Source | [logos-blockchain/lez-explorer-ui@e438c7d](https://github.com/logos-blockchain/lez-explorer-ui/tree/e438c7d72792147b411b11c11cd9dd095dc41e59) |
+| Pinned by | logos-co/logos-modules-release@794c58f0d838 submodules/lez-explorer-ui (tag lez_explorer_ui-v1.2.2) |
 | Depends on | [`lez_indexer_module`](../lez_indexer_module/README.md) `>=1.2.0` |
 | Required by | — |
 
 ## Read these first
 
-1. **Annotated interface source** — [`interface.rep`](interface.rep), extracted from [`src/lez_explorer_ui.rep`](https://github.com/logos-blockchain/lez-explorer-ui/blob/69b7120baf723d74be65aa8c12c865d94f742966/src/lez_explorer_ui.rep). Doc comments here are the API reference.
+1. **Annotated interface source** — [`interface.rep`](interface.rep), extracted from [`src/lez_explorer_ui.rep`](https://github.com/logos-blockchain/lez-explorer-ui/blob/e438c7d72792147b411b11c11cd9dd095dc41e59/src/lez_explorer_ui.rep). Doc comments here are the API reference.
 2. **Stack overview** — [stacks/blockchain-lez.md](../../stacks/blockchain-lez.md): how this module fits with its neighbours, trust boundaries, flows.
-3. **Upstream docs** — [`README.md`](https://github.com/logos-blockchain/lez-explorer-ui/blob/69b7120baf723d74be65aa8c12c865d94f742966/README.md)
+3. **Upstream docs** — [`README.md`](https://github.com/logos-blockchain/lez-explorer-ui/blob/e438c7d72792147b411b11c11cd9dd095dc41e59/README.md)
 
 ## API at a glance
 
@@ -53,5 +53,5 @@
 
 ## Depend on it / get it
 
-- Contract from source: `nix build 'github:logos-blockchain/lez-explorer-ui/69b7120baf723d74be65aa8c12c865d94f742966#lidl' --no-link --print-out-paths`
-- Install: Basecamp → Package Manager, or `logosctl install lez_explorer_ui --version 1.2.0`
+- Contract from source: `nix build 'github:logos-blockchain/lez-explorer-ui/e438c7d72792147b411b11c11cd9dd095dc41e59#lidl' --no-link --print-out-paths`
+- Install: Basecamp → Package Manager, or `logosctl install lez_explorer_ui --version 1.2.2`

@@ -1,5 +1,5 @@
-// Extracted by logos-module-atlas from logos-blockchain/lez-indexer-module@b27f3ee7a6fa:src/lez_indexer_module_impl.h
-// https://github.com/logos-blockchain/lez-indexer-module/blob/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54/src/lez_indexer_module_impl.h
+// Extracted by logos-module-atlas from logos-blockchain/lez-indexer-module@87463b1173fc:src/lez_indexer_module_impl.h
+// https://github.com/logos-blockchain/lez-indexer-module/blob/87463b1173fc685dd40f789d5de013c2564519da/src/lez_indexer_module_impl.h
 
 #pragma once
 

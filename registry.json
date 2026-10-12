@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T13:13:57+00:00",
+  "generatedAt": "2026-10-12T15:19:11+00:00",
   "scope": "Every module the latest Logos Basecamp release makes available: bundled in the app, or installable from its default catalog.",
   "basecamp": {
     "tag": "0.3.2",
@@ -18,7 +18,7 @@
       "name": "logos-modules-official",
       "displayName": "Logos Official",
       "indexUrl": "https://github.com/logos-co/logos-modules-release/releases/download/index/index.json",
-      "indexGeneratedAt": "2026-10-09T12:42:08Z",
+      "indexGeneratedAt": "2026-10-12T07:29:08Z",
       "packageCount": 46
     }
   ],
@@ -1085,19 +1085,20 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "0.5.0",
+        "latest": "0.5.1",
         "versions": [
+          "0.5.1",
           "0.5.0",
           "0.4.2",
           "0.4.1",
           "0.4.0"
         ],
-        "releasedAt": "2026-10-01T11:18:28Z",
-        "publisherRef": "lez_core-v0.5.0",
-        "catalogCommit": "f154863e8c087226c93f10811963db1470ea84db",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_core-v0.5.0/lez_core-0.5.0.lgx",
-        "sha256": "5cb561e273424c9a2d477a2bbae0f015a71154e8916e78b9097eb921be554be3",
-        "size": 217451459,
+        "releasedAt": "2026-10-12T05:41:43Z",
+        "publisherRef": "lez_core-v0.5.1",
+        "catalogCommit": "95e08eb5e38d8696ac2eca254ce2d02a7959c13e",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_core-v0.5.1/lez_core-0.5.1.lgx",
+        "sha256": "1f19bbb1ee8e64206497ce9e61e1990c2e289f405847d678d1172ed08d6b0fd0",
+        "size": 216435998,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -1106,10 +1107,10 @@
       },
       "source": {
         "repo": "logos-blockchain/logos-execution-zone-module",
-        "commit": "b89e5d24df5babc2490d2e5d47756fb1f33435dd",
+        "commit": "51a6fee385eedfdc65ba71f01447c5411a54bdf7",
         "subdir": "",
-        "pinnedBy": "logos-co/logos-modules-release@f154863e8c08 submodules/logos-execution-zone-module (tag lez_core-v0.5.0)",
-        "url": "https://github.com/logos-blockchain/logos-execution-zone-module/tree/b89e5d24df5babc2490d2e5d47756fb1f33435dd"
+        "pinnedBy": "logos-co/logos-modules-release@95e08eb5e38d submodules/logos-execution-zone-module (tag lez_core-v0.5.1)",
+        "url": "https://github.com/logos-blockchain/logos-execution-zone-module/tree/51a6fee385eedfdc65ba71f01447c5411a54bdf7"
       },
       "dependencies": [],
       "requiredBy": [
@@ -1125,19 +1126,19 @@
       "interfaceSource": {
         "file": "interface.h",
         "from": "src/lez_core_module.h",
-        "url": "https://github.com/logos-blockchain/logos-execution-zone-module/blob/b89e5d24df5babc2490d2e5d47756fb1f33435dd/src/lez_core_module.h",
+        "url": "https://github.com/logos-blockchain/logos-execution-zone-module/blob/51a6fee385eedfdc65ba71f01447c5411a54bdf7/src/lez_core_module.h",
         "lang": "h"
       },
       "docs": [
         {
           "path": "README.md",
-          "url": "https://github.com/logos-blockchain/logos-execution-zone-module/blob/b89e5d24df5babc2490d2e5d47756fb1f33435dd/README.md"
+          "url": "https://github.com/logos-blockchain/logos-execution-zone-module/blob/51a6fee385eedfdc65ba71f01447c5411a54bdf7/README.md"
         }
       ],
       "qmlView": null,
       "contract": {
         "file": "lez_core.lidl",
-        "builtFrom": "b89e5d24df5babc2490d2e5d47756fb1f33435dd",
+        "builtFrom": "51a6fee385eedfdc65ba71f01447c5411a54bdf7",
         "stale": false
       },
       "api": {
@@ -1159,12 +1160,12 @@
           },
           {
             "name": "create_new",
-            "signature": "create_new(config_path: tstr, storage_path: tstr, statistics_path: tstr, password: tstr) -> tstr",
+            "signature": "create_new(config_path: tstr, storage_path: tstr, password: tstr) -> tstr",
             "summary": ""
           },
           {
             "name": "open",
-            "signature": "open(config_path: tstr, storage_path: tstr, statistics_path: tstr) -> int",
+            "signature": "open(config_path: tstr, storage_path: tstr) -> int",
             "summary": ""
           },
           {
@@ -1174,7 +1175,7 @@
           },
           {
             "name": "restore_storage",
-            "signature": "restore_storage(mnemonic: tstr, password: tstr, depth: any) -> int",
+            "signature": "restore_storage(mnemonic: tstr, password: tstr, depth: uint) -> int",
             "summary": ""
           },
           {
@@ -1273,28 +1274,13 @@
             "summary": ""
           },
           {
-            "name": "token_elf",
-            "signature": "token_elf() -> bstr",
-            "summary": ""
-          },
-          {
-            "name": "amm_elf",
-            "signature": "amm_elf() -> bstr",
-            "summary": ""
-          },
-          {
-            "name": "ata_elf",
-            "signature": "ata_elf() -> bstr",
-            "summary": ""
-          },
-          {
             "name": "send_generic_public_transaction",
             "signature": "send_generic_public_transaction(account_ids: [tstr], signing_requirements: [bool], instruction: bstr, program_id_hex: tstr, payer_account_id_hex: tstr, shard_program_account_ids_hex: [tstr]) -> tstr",
             "summary": ""
           },
           {
             "name": "send_generic_private_transaction",
-            "signature": "send_generic_private_transaction(account_ids: [tstr], instruction: bstr, program_elf: bstr, program_kind_json: tstr, program_dependencies: any, dependency_kinds_json: [tstr], shard_program_account_ids_hex: [tstr]) -> tstr",
+            "signature": "send_generic_private_transaction(account_ids: [tstr], instruction: bstr, program_elf: bstr, program_kind_json: tstr, program_dependencies: [bstr], dependency_kinds_json: [tstr], shard_program_account_ids_hex: [tstr]) -> tstr",
             "summary": ""
           },
           {
@@ -1359,20 +1345,22 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "1.2.0",
+        "latest": "1.2.2",
         "versions": [
+          "1.2.2",
+          "1.2.1",
           "1.2.0",
           "1.1.2",
           "1.1.1",
           "1.1.0",
           "1.0.0"
         ],
-        "releasedAt": "2026-10-02T07:58:39Z",
-        "publisherRef": "lez_explorer_ui-v1.2.0",
-        "catalogCommit": "3ba43d6ebeba32799e82bf728c590a775c5baf91",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_explorer_ui-v1.2.0/lez_explorer_ui-1.2.0.lgx",
-        "sha256": "742a0bc0c1b21459b70cf526949e3d9874514e1effa547ebb5b785985cbe8622",
-        "size": 12634886,
+        "releasedAt": "2026-10-12T07:26:38Z",
+        "publisherRef": "lez_explorer_ui-v1.2.2",
+        "catalogCommit": "794c58f0d8380a471662ecf56e40126fa5e7fe12",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_explorer_ui-v1.2.2/lez_explorer_ui-1.2.2.lgx",
+        "sha256": "89ea8295a32cb6207dc0e2bedb1831d7f70a0bcde41555c9bb24b7be75964086",
+        "size": 12634960,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -1381,10 +1369,10 @@
       },
       "source": {
         "repo": "logos-blockchain/lez-explorer-ui",
-        "commit": "69b7120baf723d74be65aa8c12c865d94f742966",
+        "commit": "e438c7d72792147b411b11c11cd9dd095dc41e59",
         "subdir": "",
-        "pinnedBy": "logos-co/logos-modules-release@3ba43d6ebeba submodules/lez-explorer-ui (tag lez_explorer_ui-v1.2.0)",
-        "url": "https://github.com/logos-blockchain/lez-explorer-ui/tree/69b7120baf723d74be65aa8c12c865d94f742966"
+        "pinnedBy": "logos-co/logos-modules-release@794c58f0d838 submodules/lez-explorer-ui (tag lez_explorer_ui-v1.2.2)",
+        "url": "https://github.com/logos-blockchain/lez-explorer-ui/tree/e438c7d72792147b411b11c11cd9dd095dc41e59"
       },
       "dependencies": [
         {
@@ -1405,13 +1393,13 @@
       "interfaceSource": {
         "file": "interface.rep",
         "from": "src/lez_explorer_ui.rep",
-        "url": "https://github.com/logos-blockchain/lez-explorer-ui/blob/69b7120baf723d74be65aa8c12c865d94f742966/src/lez_explorer_ui.rep",
+        "url": "https://github.com/logos-blockchain/lez-explorer-ui/blob/e438c7d72792147b411b11c11cd9dd095dc41e59/src/lez_explorer_ui.rep",
         "lang": "rep"
       },
       "docs": [
         {
           "path": "README.md",
-          "url": "https://github.com/logos-blockchain/lez-explorer-ui/blob/69b7120baf723d74be65aa8c12c865d94f742966/README.md"
+          "url": "https://github.com/logos-blockchain/lez-explorer-ui/blob/e438c7d72792147b411b11c11cd9dd095dc41e59/README.md"
         }
       ],
       "qmlView": null,
@@ -1525,20 +1513,21 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "1.2.0",
+        "latest": "1.2.1",
         "versions": [
+          "1.2.1",
           "1.2.0",
           "1.1.2",
           "1.1.1",
           "1.1.0",
           "1.0.0"
         ],
-        "releasedAt": "2026-10-01T11:01:07Z",
-        "publisherRef": "lez_indexer_module-v1.2.0",
-        "catalogCommit": "f154863e8c087226c93f10811963db1470ea84db",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_indexer_module-v1.2.0/lez_indexer_module-1.2.0.lgx",
-        "sha256": "1dfd4903ab3aeca2f99a329eea06f3f0a0036e94a05ba26a95836039fe20ca58",
-        "size": 44357606,
+        "releasedAt": "2026-10-12T07:19:14Z",
+        "publisherRef": "lez_indexer_module-v1.2.1",
+        "catalogCommit": "c5edc70ce35a976debd8a20be32e8335890123db",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_indexer_module-v1.2.1/lez_indexer_module-1.2.1.lgx",
+        "sha256": "bcdb0e6c1f2f0808e57ae80af4265158547f0ed2f937d96a2308d46ff3c8ffc7",
+        "size": 42787614,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -1547,10 +1536,10 @@
       },
       "source": {
         "repo": "logos-blockchain/lez-indexer-module",
-        "commit": "b27f3ee7a6fad18ddc0e022fbada81d8514e0d54",
+        "commit": "87463b1173fc685dd40f789d5de013c2564519da",
         "subdir": "",
-        "pinnedBy": "logos-co/logos-modules-release@f154863e8c08 submodules/lez-indexer-module (tag lez_indexer_module-v1.2.0)",
-        "url": "https://github.com/logos-blockchain/lez-indexer-module/tree/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54"
+        "pinnedBy": "logos-co/logos-modules-release@c5edc70ce35a submodules/lez-indexer-module (tag lez_indexer_module-v1.2.1)",
+        "url": "https://github.com/logos-blockchain/lez-indexer-module/tree/87463b1173fc685dd40f789d5de013c2564519da"
       },
       "dependencies": [],
       "requiredBy": [
@@ -1564,19 +1553,19 @@
       "interfaceSource": {
         "file": "interface.h",
         "from": "src/lez_indexer_module_impl.h",
-        "url": "https://github.com/logos-blockchain/lez-indexer-module/blob/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54/src/lez_indexer_module_impl.h",
+        "url": "https://github.com/logos-blockchain/lez-indexer-module/blob/87463b1173fc685dd40f789d5de013c2564519da/src/lez_indexer_module_impl.h",
         "lang": "h"
       },
       "docs": [
         {
           "path": "README.md",
-          "url": "https://github.com/logos-blockchain/lez-indexer-module/blob/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54/README.md"
+          "url": "https://github.com/logos-blockchain/lez-indexer-module/blob/87463b1173fc685dd40f789d5de013c2564519da/README.md"
         }
       ],
       "qmlView": null,
       "contract": {
         "file": "lez_indexer_module.lidl",
-        "builtFrom": "b27f3ee7a6fad18ddc0e022fbada81d8514e0d54",
+        "builtFrom": "87463b1173fc685dd40f789d5de013c2564519da",
         "stale": false
       },
       "api": {
@@ -1658,20 +1647,21 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "1.2.1",
+        "latest": "1.2.2",
         "versions": [
+          "1.2.2",
           "1.2.1",
           "1.2.0",
           "1.1.1",
           "1.1.0",
           "1.0.0"
         ],
-        "releasedAt": "2026-10-09T11:30:10Z",
-        "publisherRef": "lez_wallet_ui-v1.2.1",
-        "catalogCommit": "3a778be88f56e64e7d05225fc226e1b97b19c962",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_wallet_ui-v1.2.1/lez_wallet_ui-1.2.1.lgx",
-        "sha256": "11cba5fda084a9c145baac7e48f04915e6638a7fac89af2f5fedfe84ab97ce5a",
-        "size": 12970818,
+        "releasedAt": "2026-10-12T01:35:43Z",
+        "publisherRef": "lez_wallet_ui-v1.2.2",
+        "catalogCommit": "95e08eb5e38d8696ac2eca254ce2d02a7959c13e",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/lez_wallet_ui-v1.2.2/lez_wallet_ui-1.2.2.lgx",
+        "sha256": "12eb2eccfe4d1e706a70ab1c7f2efe79723b48cc82e63f9956963bc42db88055",
+        "size": 12993094,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -1680,15 +1670,15 @@
       },
       "source": {
         "repo": "logos-blockchain/logos-execution-zone-wallet-ui",
-        "commit": "8e1886428d1295279b2b549e3f3a1b57e323815a",
+        "commit": "486379ec41ea0bd4e59cf3c82632429b0fed393b",
         "subdir": "",
-        "pinnedBy": "logos-co/logos-modules-release@3a778be88f56 submodules/logos-execution-zone-wallet-ui (tag lez_wallet_ui-v1.2.1)",
-        "url": "https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/tree/8e1886428d1295279b2b549e3f3a1b57e323815a"
+        "pinnedBy": "logos-co/logos-modules-release@95e08eb5e38d submodules/logos-execution-zone-wallet-ui (tag lez_wallet_ui-v1.2.2)",
+        "url": "https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/tree/486379ec41ea0bd4e59cf3c82632429b0fed393b"
       },
       "dependencies": [
         {
           "name": "lez_core",
-          "version": ">=0.5.0"
+          "version": ">=0.5.1"
         }
       ],
       "requiredBy": [],
@@ -1700,13 +1690,13 @@
       "interfaceSource": {
         "file": "interface.rep",
         "from": "src/LEZWalletBackend.rep",
-        "url": "https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/blob/8e1886428d1295279b2b549e3f3a1b57e323815a/src/LEZWalletBackend.rep",
+        "url": "https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/blob/486379ec41ea0bd4e59cf3c82632429b0fed393b/src/LEZWalletBackend.rep",
         "lang": "rep"
       },
       "docs": [
         {
           "path": "README.md",
-          "url": "https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/blob/8e1886428d1295279b2b549e3f3a1b57e323815a/README.md"
+          "url": "https://github.com/logos-blockchain/logos-execution-zone-wallet-ui/blob/486379ec41ea0bd4e59cf3c82632429b0fed393b/README.md"
         }
       ],
       "qmlView": null,

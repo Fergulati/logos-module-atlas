@@ -74,14 +74,14 @@
   {
     "name": "lez_core",
     "status": "ok",
-    "commit": "b89e5d24df5babc2490d2e5d47756fb1f33435dd",
-    "ref": "github:logos-blockchain/logos-execution-zone-module/b89e5d24df5babc2490d2e5d47756fb1f33435dd#lidl"
+    "commit": "51a6fee385eedfdc65ba71f01447c5411a54bdf7",
+    "ref": "github:logos-blockchain/logos-execution-zone-module/51a6fee385eedfdc65ba71f01447c5411a54bdf7#lidl"
   },
   {
     "name": "lez_indexer_module",
     "status": "ok",
-    "commit": "b27f3ee7a6fad18ddc0e022fbada81d8514e0d54",
-    "ref": "github:logos-blockchain/lez-indexer-module/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54#lidl"
+    "commit": "87463b1173fc685dd40f789d5de013c2564519da",
+    "ref": "github:logos-blockchain/lez-indexer-module/87463b1173fc685dd40f789d5de013c2564519da#lidl"
   },
   {
     "name": "liblogos_lez_rln_module",

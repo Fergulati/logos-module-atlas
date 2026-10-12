@@ -1,5 +1,5 @@
 module lez_indexer_module {
-  version "1.2.0"
+  version "1.2.1"
   description "Logos Execution Zone Indexer Module for Logos Core"
   category "blockchain"
   depends []

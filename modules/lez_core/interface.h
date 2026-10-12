@@ -1,5 +1,5 @@
-// Extracted by logos-module-atlas from logos-blockchain/logos-execution-zone-module@b89e5d24df5b:src/lez_core_module.h
-// https://github.com/logos-blockchain/logos-execution-zone-module/blob/b89e5d24df5babc2490d2e5d47756fb1f33435dd/src/lez_core_module.h
+// Extracted by logos-module-atlas from logos-blockchain/logos-execution-zone-module@51a6fee385ee:src/lez_core_module.h
+// https://github.com/logos-blockchain/logos-execution-zone-module/blob/51a6fee385eedfdc65ba71f01447c5411a54bdf7/src/lez_core_module.h
 
 #ifndef LEZ_CORE_MODULE_H
 #define LEZ_CORE_MODULE_H
@@ -43,11 +43,11 @@ public:
     std::string version() const;
     std::string wallet_dir();
 
-    std::string create_new(const std::string& config_path, const std::string& storage_path, const std::string& statistics_path, const std::string& password);
-    int64_t open(const std::string& config_path, const std::string& storage_path, const std::string& statistics_path);
+    std::string create_new(const std::string& config_path, const std::string& storage_path, const std::string& password);
+    int64_t open(const std::string& config_path, const std::string& storage_path);
     int64_t save();
 
-    int64_t restore_storage(const std::string& mnemonic, const std::string password, uint32_t depth);
+    int64_t restore_storage(const std::string& mnemonic, const std::string password, uint64_t depth);
 
     // === Account Management ===
     std::string create_account_public();
@@ -79,10 +79,6 @@ public:
     std::string transfer_private(const std::string& from_hex, const std::string& to_keys_json, const std::string& amount_le16_hex);
     std::string transfer_shielded_owned(const std::string& from_hex, const std::string& to_hex, const std::string& amount_le16_hex);
     std::string transfer_private_owned(const std::string& from_hex, const std::string& to_hex, const std::string& amount_le16_hex);
-
-    std::vector<uint8_t> token_elf();
-    std::vector<uint8_t> amm_elf();
-    std::vector<uint8_t> ata_elf();
 
     // `instruction` uses a byte-string (`bstr`) IPC type so the auto-generated
     // Qt/QtRO glue can serialize it across the module process boundary. Declaring

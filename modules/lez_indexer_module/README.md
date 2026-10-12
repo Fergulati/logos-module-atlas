@@ -8,20 +8,20 @@
 | Type | `core` · interface `universal` · c++ |
 | Stack | [blockchain-lez](../../stacks/blockchain-lez.md) · category `blockchain` |
 | Availability | installable from the default catalog *Logos Official* |
-| Catalog version | **1.2.0** (released 2026-10-01) · all: 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.0 |
+| Catalog version | **1.2.1** (released 2026-10-12) · all: 1.2.1, 1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.0 |
 | Platforms | darwin-arm64, linux-amd64, linux-arm64 |
-| Package | [lez_indexer_module-v1.2.0](https://github.com/logos-co/logos-modules-release/releases/download/lez_indexer_module-v1.2.0/lez_indexer_module-1.2.0.lgx) · sha256 `1dfd4903ab3aeca2…` |
-| Source | [logos-blockchain/lez-indexer-module@b27f3ee](https://github.com/logos-blockchain/lez-indexer-module/tree/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54) |
-| Pinned by | logos-co/logos-modules-release@f154863e8c08 submodules/lez-indexer-module (tag lez_indexer_module-v1.2.0) |
+| Package | [lez_indexer_module-v1.2.1](https://github.com/logos-co/logos-modules-release/releases/download/lez_indexer_module-v1.2.1/lez_indexer_module-1.2.1.lgx) · sha256 `bcdb0e6c1f2f0808…` |
+| Source | [logos-blockchain/lez-indexer-module@87463b1](https://github.com/logos-blockchain/lez-indexer-module/tree/87463b1173fc685dd40f789d5de013c2564519da) |
+| Pinned by | logos-co/logos-modules-release@c5edc70ce35a submodules/lez-indexer-module (tag lez_indexer_module-v1.2.1) |
 | Depends on | — |
 | Required by | [`lez_explorer_ui`](../lez_explorer_ui/README.md) |
 
 ## Read these first
 
 1. **Contract** — [`lez_indexer_module.lidl`](lez_indexer_module.lidl): canonical LIDL, what codegen (C++/Rust/Nim) consumes.
-2. **Annotated interface source** — [`interface.h`](interface.h), extracted from [`src/lez_indexer_module_impl.h`](https://github.com/logos-blockchain/lez-indexer-module/blob/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54/src/lez_indexer_module_impl.h). Doc comments here are the API reference.
+2. **Annotated interface source** — [`interface.h`](interface.h), extracted from [`src/lez_indexer_module_impl.h`](https://github.com/logos-blockchain/lez-indexer-module/blob/87463b1173fc685dd40f789d5de013c2564519da/src/lez_indexer_module_impl.h). Doc comments here are the API reference.
 3. **Stack overview** — [stacks/blockchain-lez.md](../../stacks/blockchain-lez.md): how this module fits with its neighbours, trust boundaries, flows.
-4. **Upstream docs** — [`README.md`](https://github.com/logos-blockchain/lez-indexer-module/blob/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54/README.md)
+4. **Upstream docs** — [`README.md`](https://github.com/logos-blockchain/lez-indexer-module/blob/87463b1173fc685dd40f789d5de013c2564519da/README.md)
 
 ## API at a glance
 
@@ -42,5 +42,5 @@
 ## Depend on it / get it
 
 - From your module's `metadata.json`: `"dependencies": ["lez_indexer_module"]` (see [guides/calling-official-modules.md](../../guides/calling-official-modules.md)).
-- Contract from source: `nix build 'github:logos-blockchain/lez-indexer-module/b27f3ee7a6fad18ddc0e022fbada81d8514e0d54#lidl' --no-link --print-out-paths`
-- Install: Basecamp → Package Manager, or `logosctl install lez_indexer_module --version 1.2.0`
+- Contract from source: `nix build 'github:logos-blockchain/lez-indexer-module/87463b1173fc685dd40f789d5de013c2564519da#lidl' --no-link --print-out-paths`
+- Install: Basecamp → Package Manager, or `logosctl install lez_indexer_module --version 1.2.1`

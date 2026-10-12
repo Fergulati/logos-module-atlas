@@ -8,20 +8,20 @@
 | Type | `core` · interface `universal` · c++ |
 | Stack | [blockchain-lez](../../stacks/blockchain-lez.md) · category `blockchain` |
 | Availability | installable from the default catalog *Logos Official* |
-| Catalog version | **0.5.0** (released 2026-10-01) · all: 0.5.0, 0.4.2, 0.4.1, 0.4.0 |
+| Catalog version | **0.5.1** (released 2026-10-12) · all: 0.5.1, 0.5.0, 0.4.2, 0.4.1, 0.4.0 |
 | Platforms | darwin-arm64, linux-amd64, linux-arm64 |
-| Package | [lez_core-v0.5.0](https://github.com/logos-co/logos-modules-release/releases/download/lez_core-v0.5.0/lez_core-0.5.0.lgx) · sha256 `5cb561e273424c9a…` |
-| Source | [logos-blockchain/logos-execution-zone-module@b89e5d2](https://github.com/logos-blockchain/logos-execution-zone-module/tree/b89e5d24df5babc2490d2e5d47756fb1f33435dd) |
-| Pinned by | logos-co/logos-modules-release@f154863e8c08 submodules/logos-execution-zone-module (tag lez_core-v0.5.0) |
+| Package | [lez_core-v0.5.1](https://github.com/logos-co/logos-modules-release/releases/download/lez_core-v0.5.1/lez_core-0.5.1.lgx) · sha256 `1f19bbb1ee8e6420…` |
+| Source | [logos-blockchain/logos-execution-zone-module@51a6fee](https://github.com/logos-blockchain/logos-execution-zone-module/tree/51a6fee385eedfdc65ba71f01447c5411a54bdf7) |
+| Pinned by | logos-co/logos-modules-release@95e08eb5e38d submodules/logos-execution-zone-module (tag lez_core-v0.5.1) |
 | Depends on | — |
 | Required by | [`amm_module`](../amm_module/README.md), [`amm_ui`](../amm_ui/README.md), [`lez_wallet_ui`](../lez_wallet_ui/README.md) |
 
 ## Read these first
 
 1. **Contract** — [`lez_core.lidl`](lez_core.lidl): canonical LIDL, what codegen (C++/Rust/Nim) consumes.
-2. **Annotated interface source** — [`interface.h`](interface.h), extracted from [`src/lez_core_module.h`](https://github.com/logos-blockchain/logos-execution-zone-module/blob/b89e5d24df5babc2490d2e5d47756fb1f33435dd/src/lez_core_module.h). Doc comments here are the API reference.
+2. **Annotated interface source** — [`interface.h`](interface.h), extracted from [`src/lez_core_module.h`](https://github.com/logos-blockchain/logos-execution-zone-module/blob/51a6fee385eedfdc65ba71f01447c5411a54bdf7/src/lez_core_module.h). Doc comments here are the API reference.
 3. **Stack overview** — [stacks/blockchain-lez.md](../../stacks/blockchain-lez.md): how this module fits with its neighbours, trust boundaries, flows.
-4. **Upstream docs** — [`README.md`](https://github.com/logos-blockchain/logos-execution-zone-module/blob/b89e5d24df5babc2490d2e5d47756fb1f33435dd/README.md)
+4. **Upstream docs** — [`README.md`](https://github.com/logos-blockchain/logos-execution-zone-module/blob/51a6fee385eedfdc65ba71f01447c5411a54bdf7/README.md)
 
 ## API at a glance
 
@@ -30,10 +30,10 @@
 | `name` | `name() -> tstr` |  |
 | `version` | `version() -> tstr` |  |
 | `wallet_dir` | `wallet_dir() -> tstr` |  |
-| `create_new` | `create_new(config_path: tstr, storage_path: tstr, statistics_path: tstr, password: tstr) -> tstr` |  |
-| `open` | `open(config_path: tstr, storage_path: tstr, statistics_path: tstr) -> int` |  |
+| `create_new` | `create_new(config_path: tstr, storage_path: tstr, password: tstr) -> tstr` |  |
+| `open` | `open(config_path: tstr, storage_path: tstr) -> int` |  |
 | `save` | `save() -> int` |  |
-| `restore_storage` | `restore_storage(mnemonic: tstr, password: tstr, depth: any) -> int` |  |
+| `restore_storage` | `restore_storage(mnemonic: tstr, password: tstr, depth: uint) -> int` |  |
 | `create_account_public` | `create_account_public() -> tstr` |  |
 | `create_account_private` | `create_account_private() -> tstr` |  |
 | `list_accounts` | `list_accounts() -> [any]` |  |
@@ -53,11 +53,8 @@
 | `transfer_private` | `transfer_private(from_hex: tstr, to_keys_json: tstr, amount_le16_hex: tstr) -> tstr` |  |
 | `transfer_shielded_owned` | `transfer_shielded_owned(from_hex: tstr, to_hex: tstr, amount_le16_hex: tstr) -> tstr` |  |
 | `transfer_private_owned` | `transfer_private_owned(from_hex: tstr, to_hex: tstr, amount_le16_hex: tstr) -> tstr` |  |
-| `token_elf` | `token_elf() -> bstr` |  |
-| `amm_elf` | `amm_elf() -> bstr` |  |
-| `ata_elf` | `ata_elf() -> bstr` |  |
 | `send_generic_public_transaction` | `send_generic_public_transaction(account_ids: [tstr], signing_requirements: [bool], instruction: bstr, program_id_hex: tstr, payer_account_id_hex: tstr, shard_program_account_ids_hex: [tstr]) -> tstr` |  |
-| `send_generic_private_transaction` | `send_generic_private_transaction(account_ids: [tstr], instruction: bstr, program_elf: bstr, program_kind_json: tstr, program_dependencies: any, dependency_kinds_json: [tstr], shard_program_account_ids_hex: [tstr]) -> tstr` |  |
+| `send_generic_private_transaction` | `send_generic_private_transaction(account_ids: [tstr], instruction: bstr, program_elf: bstr, program_kind_json: tstr, program_dependencies: [bstr], dependency_kinds_json: [tstr], shard_program_account_ids_hex: [tstr]) -> tstr` |  |
 | `send_program_deployment_transaction` | `send_program_deployment_transaction(header_account_id_hex: tstr, segment_account_ids_hex: [tstr], program_elf: bstr, immutable: bool, payer_account_id_hex: tstr) -> tstr` |  |
 | `poll_transaction_status` | `poll_transaction_status(tx_hash_hex: tstr) -> bool` |  |
 | `bridge_withdraw` | `bridge_withdraw(from_hex: tstr, bedrock_account_pk_hex: tstr, amount: uint) -> tstr` |  |
@@ -70,5 +67,5 @@
 ## Depend on it / get it
 
 - From your module's `metadata.json`: `"dependencies": ["lez_core"]` (see [guides/calling-official-modules.md](../../guides/calling-official-modules.md)).
-- Contract from source: `nix build 'github:logos-blockchain/logos-execution-zone-module/b89e5d24df5babc2490d2e5d47756fb1f33435dd#lidl' --no-link --print-out-paths`
-- Install: Basecamp → Package Manager, or `logosctl install lez_core --version 0.5.0`
+- Contract from source: `nix build 'github:logos-blockchain/logos-execution-zone-module/51a6fee385eedfdc65ba71f01447c5411a54bdf7#lidl' --no-link --print-out-paths`
+- Install: Basecamp → Package Manager, or `logosctl install lez_core --version 0.5.1`
