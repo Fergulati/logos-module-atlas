@@ -1,5 +1,5 @@
-// Extracted by logos-module-atlas from logos-blockchain/lez-explorer-ui@e438c7d72792:src/lez_explorer_ui.rep
-// https://github.com/logos-blockchain/lez-explorer-ui/blob/e438c7d72792147b411b11c11cd9dd095dc41e59/src/lez_explorer_ui.rep
+// Extracted by logos-module-atlas from logos-blockchain/lez-explorer-ui@72039ddea252:src/lez_explorer_ui.rep
+// https://github.com/logos-blockchain/lez-explorer-ui/blob/72039ddea2527d4671a2d1721a0b898bf7688ca1/src/lez_explorer_ui.rep
 
 #include <QVariantList>
 #include <QVariantMap>

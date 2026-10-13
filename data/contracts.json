@@ -8,8 +8,8 @@
   {
     "name": "blockchain_module",
     "status": "ok",
-    "commit": "a0c1a223d41885aa772efe5ec59be2d6b30e6c9f",
-    "ref": "github:logos-blockchain/logos-blockchain-module/a0c1a223d41885aa772efe5ec59be2d6b30e6c9f#lidl"
+    "commit": "559b421e81b9a53f90d9e0976cf63d20307b4473",
+    "ref": "github:logos-blockchain/logos-blockchain-module/559b421e81b9a53f90d9e0976cf63d20307b4473#lidl"
   },
   {
     "name": "capability_module",
