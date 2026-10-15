@@ -122,7 +122,7 @@ repos and remain under their terms. Each one names its source repo and commit.
 ## Modules
 
 <!-- registry:start -->
-_Generated 2026-10-13 from Basecamp [0.3.2](https://github.com/logos-co/logos-basecamp/releases/tag/0.3.2) and its default catalog [Logos Official](https://github.com/logos-co/logos-modules-release) (index generated 2026-10-13T12:45)._
+_Generated 2026-10-15 from Basecamp [0.3.2](https://github.com/logos-co/logos-basecamp/releases/tag/0.3.2) and its default catalog [Logos Official](https://github.com/logos-co/logos-modules-release) (index generated 2026-10-15T06:44)._
 
 ### [Blockchain & LEZ](stacks/blockchain-lez.md)
 
@@ -159,7 +159,7 @@ _Generated 2026-10-13 from Basecamp [0.3.2](https://github.com/logos-co/logos-ba
 | [`uniswap_backend`](modules/uniswap_backend/README.md) | core | 0.1.0 | catalog | [lidl](modules/uniswap_backend/uniswap_backend.lidl) | The Uniswap app's backend: quotes, swaps and swap history composed from reusable EVM chain, token, asset, account, fee, quote and sender … |
 | [`uniswap_module`](modules/uniswap_module/README.md) | core | 0.1.0 | catalog | [lidl](modules/uniswap_module/uniswap_module.lidl) | Uniswap price oracle + swap router: V2/V3/V4 token prices (best-rate, Multicall3-batched) and V2/V3 swap building. Multi-chain, configura… |
 | [`uniswap_ui`](modules/uniswap_ui/README.md) | ui_qml | 0.1.0 | catalog | — | Swap EVM assets on Uniswap. A view over uniswap_backend, which composes the reusable EVM modules. |
-| [`verified_proxy_module`](modules/verified_proxy_module/README.md) | core | 0.1.3 | catalog | [lidl](modules/verified_proxy_module/verified_proxy_module.lidl) | Light-client-verified Ethereum JSON-RPC, wrapping nimbus libverifproxy |
+| [`verified_proxy_module`](modules/verified_proxy_module/README.md) | core | 0.1.4 | catalog | [lidl](modules/verified_proxy_module/verified_proxy_module.lidl) | Light-client-verified Ethereum JSON-RPC, wrapping nimbus libverifproxy |
 | [`verified_proxy_ui`](modules/verified_proxy_ui/README.md) | ui_qml | 0.1.0 | catalog | — | Configure and operate the light-client-verified Ethereum proxy |
 
 ### [Messaging](stacks/messaging.md)
@@ -169,9 +169,9 @@ _Generated 2026-10-13 from Basecamp [0.3.2](https://github.com/logos-co/logos-ba
 | [`chat_module`](modules/chat_module/README.md) | core | 0.3.0 | catalog | [lidl](modules/chat_module/chat_module.lidl) | Chat module for Logos |
 | [`chat_ui`](modules/chat_ui/README.md) | ui_qml | 0.3.0 | catalog | — | Chat App for Logos - Private messaging interface |
 | [`delivery_demo`](modules/delivery_demo/README.md) | ui_qml | 0.3.0 | catalog | — | Educational UI demo for logos-delivery-module: subscribe to content topics, send and receive messages, see which delivery_module API call… |
-| [`delivery_module`](modules/delivery_module/README.md) | core | 0.3.2 | catalog | [lidl](modules/delivery_module/delivery_module.lidl) | Logos Delivery Module - High-level message-delivery API |
-| [`liblogos_lez_rln_module`](modules/liblogos_lez_rln_module/README.md) | core | 4.2.1 | catalog | [lidl](modules/liblogos_lez_rln_module/liblogos_lez_rln_module.lidl) | RLN registry provider (LEZ chain reads + registration/funding txs) |
-| [`liblogos_rln_module`](modules/liblogos_rln_module/README.md) | core | 0.10.0 | catalog | [lidl](modules/liblogos_rln_module/liblogos_rln_module.lidl) | Registry-agnostic RLN membership management (RLN-MEMBERSHIP-MANAGEMENT) |
+| [`delivery_module`](modules/delivery_module/README.md) | core | 0.4.0 | catalog | [lidl](modules/delivery_module/delivery_module.lidl) | Logos Delivery Module - High-level message-delivery API |
+| [`liblogos_lez_rln_module`](modules/liblogos_lez_rln_module/README.md) | core | 5.1.0 | catalog | [lidl](modules/liblogos_lez_rln_module/liblogos_lez_rln_module.lidl) | RLN registry provider (LEZ chain reads + registration/funding txs) |
+| [`liblogos_rln_module`](modules/liblogos_rln_module/README.md) | core | 0.12.0 | catalog | [lidl](modules/liblogos_rln_module/liblogos_rln_module.lidl) | Registry-agnostic RLN membership management (RLN-MEMBERSHIP-MANAGEMENT) |
 | [`libp2p_module`](modules/libp2p_module/README.md) | core | 1.1.0 | catalog | [lidl](modules/libp2p_module/libp2p_module.lidl) | Libp2p network protocol module for Logos |
 
 ### [Monero wallet](stacks/monero-wallet.md)

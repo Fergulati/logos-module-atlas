@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T14:09:12+00:00",
+  "generatedAt": "2026-10-15T11:26:32+00:00",
   "scope": "Every module the latest Logos Basecamp release makes available: bundled in the app, or installable from its default catalog.",
   "basecamp": {
     "tag": "0.3.2",
@@ -18,7 +18,7 @@
       "name": "logos-modules-official",
       "displayName": "Logos Official",
       "indexUrl": "https://github.com/logos-co/logos-modules-release/releases/download/index/index.json",
-      "indexGeneratedAt": "2026-10-13T12:45:38Z",
+      "indexGeneratedAt": "2026-10-15T06:44:05Z",
       "packageCount": 46
     }
   ],
@@ -5496,16 +5496,17 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "0.1.3",
+        "latest": "0.1.4",
         "versions": [
+          "0.1.4",
           "0.1.3"
         ],
-        "releasedAt": "2026-09-29T13:57:28Z",
-        "publisherRef": "verified_proxy_module-v0.1.3",
-        "catalogCommit": "b504625323a0c3fac3fc51962abfce36eabf4a37",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/verified_proxy_module-v0.1.3/verified_proxy_module-0.1.3.lgx",
-        "sha256": "e61b50a0bdbf6dd8b723ff40ddea99a604d906764c937b2581e5470ee042e633",
-        "size": 68680795,
+        "releasedAt": "2026-10-14T20:14:08Z",
+        "publisherRef": "verified_proxy_module-v0.1.4",
+        "catalogCommit": "030cde1d2dc995e388b1d98edbf93ee8a272fb3a",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/verified_proxy_module-v0.1.4/verified_proxy_module-0.1.4.lgx",
+        "sha256": "10e9c5f413b0b14e46040dd8b10ed9d0fc6c1841437cf29af7d813e3f5c68837",
+        "size": 68578908,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -5515,10 +5516,10 @@
       },
       "source": {
         "repo": "logos-co/logos-verified-proxy-module",
-        "commit": "f0cf1f45def716515bca735ff04deab565c4a962",
+        "commit": "68a3543192bc20cd2e42ed4c1533e4a9dd881eec",
         "subdir": "",
-        "pinnedBy": "logos-co/logos-modules-release@b504625323a0 submodules/logos-verified-proxy-module (tag verified_proxy_module-v0.1.3)",
-        "url": "https://github.com/logos-co/logos-verified-proxy-module/tree/f0cf1f45def716515bca735ff04deab565c4a962"
+        "pinnedBy": "logos-co/logos-modules-release@030cde1d2dc9 submodules/logos-verified-proxy-module (tag verified_proxy_module-v0.1.4)",
+        "url": "https://github.com/logos-co/logos-verified-proxy-module/tree/68a3543192bc20cd2e42ed4c1533e4a9dd881eec"
       },
       "dependencies": [],
       "requiredBy": [
@@ -5532,19 +5533,19 @@
       "interfaceSource": {
         "file": "interface.h",
         "from": "src/verified_proxy_impl.h",
-        "url": "https://github.com/logos-co/logos-verified-proxy-module/blob/f0cf1f45def716515bca735ff04deab565c4a962/src/verified_proxy_impl.h",
+        "url": "https://github.com/logos-co/logos-verified-proxy-module/blob/68a3543192bc20cd2e42ed4c1533e4a9dd881eec/src/verified_proxy_impl.h",
         "lang": "h"
       },
       "docs": [
         {
           "path": "README.md",
-          "url": "https://github.com/logos-co/logos-verified-proxy-module/blob/f0cf1f45def716515bca735ff04deab565c4a962/README.md"
+          "url": "https://github.com/logos-co/logos-verified-proxy-module/blob/68a3543192bc20cd2e42ed4c1533e4a9dd881eec/README.md"
         }
       ],
       "qmlView": null,
       "contract": {
         "file": "verified_proxy_module.lidl",
-        "builtFrom": "f0cf1f45def716515bca735ff04deab565c4a962",
+        "builtFrom": "68a3543192bc20cd2e42ed4c1533e4a9dd881eec",
         "stale": false
       },
       "api": {
@@ -6661,8 +6662,10 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "0.3.2",
+        "latest": "0.4.0",
         "versions": [
+          "0.4.0",
+          "0.3.3",
           "0.3.2",
           "0.3.1",
           "0.3.0",
@@ -6671,12 +6674,12 @@
           "0.1.3",
           "0.1.2"
         ],
-        "releasedAt": "2026-10-06T21:06:37Z",
-        "publisherRef": "delivery_module-v0.3.2",
-        "catalogCommit": "65dc83e4508c7b1aa9ebbff1118e33592850219c",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/delivery_module-v0.3.2/delivery_module-0.3.2.lgx",
-        "sha256": "9b856418fcf816961f1118f34b395bb6a399e5523166be51f4eca6a7aaf76867",
-        "size": 97014249,
+        "releasedAt": "2026-10-14T21:16:52Z",
+        "publisherRef": "delivery_module-v0.4.0",
+        "catalogCommit": "d0283dcc14366fff3936e26aea17184aeb4047bc",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/delivery_module-v0.4.0/delivery_module-0.4.0.lgx",
+        "sha256": "cfecd6f216c152e9185c5e631983b6e5b5ceefa30952e131bf010324f9b3b410",
+        "size": 97990384,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -6686,10 +6689,10 @@
       },
       "source": {
         "repo": "logos-co/logos-delivery-module",
-        "commit": "c25b7868099949c375e7affdeb1502b354fd92e3",
+        "commit": "1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f",
         "subdir": "",
-        "pinnedBy": "logos-co/logos-modules-release@65dc83e4508c submodules/logos-delivery-module (tag delivery_module-v0.3.2)",
-        "url": "https://github.com/logos-co/logos-delivery-module/tree/c25b7868099949c375e7affdeb1502b354fd92e3"
+        "pinnedBy": "logos-co/logos-modules-release@d0283dcc1436 submodules/logos-delivery-module (tag delivery_module-v0.4.0)",
+        "url": "https://github.com/logos-co/logos-delivery-module/tree/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f"
       },
       "dependencies": [],
       "requiredBy": [
@@ -6705,59 +6708,59 @@
       "interfaceSource": {
         "file": "interface.h",
         "from": "src/delivery_module_plugin.h",
-        "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/src/delivery_module_plugin.h",
+        "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/src/delivery_module_plugin.h",
         "lang": "h"
       },
       "docs": [
         {
           "path": "README.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/README.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/README.md"
         },
         {
           "path": "docs/index.rst",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/index.rst"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/index.rst"
         },
         {
           "path": "docs/pages/api-layers.rst",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/api-layers.rst"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/api-layers.rst"
         },
         {
           "path": "docs/pages/api_reference.rst",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/api_reference.rst"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/api_reference.rst"
         },
         {
           "path": "docs/pages/architecture.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/architecture.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/architecture.md"
         },
         {
           "path": "docs/pages/internal.rst",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/internal.rst"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/internal.rst"
         },
         {
           "path": "docs/pages/networks.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/networks.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/networks.md"
         },
         {
           "path": "docs/pages/query-node.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/query-node.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/query-node.md"
         },
         {
           "path": "docs/pages/rln.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/rln.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/rln.md"
         },
         {
           "path": "docs/pages/run-node.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/run-node.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/run-node.md"
         },
         {
           "path": "docs/pages/versioning.md",
-          "url": "https://github.com/logos-co/logos-delivery-module/blob/c25b7868099949c375e7affdeb1502b354fd92e3/docs/pages/versioning.md"
+          "url": "https://github.com/logos-co/logos-delivery-module/blob/1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f/docs/pages/versioning.md"
         }
       ],
       "qmlView": null,
       "contract": {
         "file": "delivery_module.lidl",
-        "builtFrom": "c25b7868099949c375e7affdeb1502b354fd92e3",
+        "builtFrom": "1e1fb56aaf4bb6b80e8d1fef043ce64eba6bd28f",
         "stale": false
       },
       "api": {
@@ -6823,9 +6826,19 @@
             "summary": "@brief Lists the node info items this node advertises, for use with @ref getNodeInfo."
           },
           {
+            "name": "getLocalMixPeerRecord",
+            "signature": "getLocalMixPeerRecord() -> result",
+            "summary": "@brief Returns information for the given node info item."
+          },
+          {
+            "name": "addMixPeer",
+            "signature": "addMixPeer(recordJson: tstr) -> result",
+            "summary": ""
+          },
+          {
             "name": "getNodeInfo",
             "signature": "getNodeInfo(nodeInfoId: tstr) -> result",
-            "summary": "@brief Returns information for the given node info item."
+            "summary": ""
           },
           {
             "name": "getConnectionStatus",
@@ -6960,16 +6973,17 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "4.2.1",
+        "latest": "5.1.0",
         "versions": [
+          "5.1.0",
           "4.2.1"
         ],
-        "releasedAt": "2026-09-30T20:26:35Z",
-        "publisherRef": "liblogos_lez_rln_module-v4.2.1",
-        "catalogCommit": "34013bd5dfd2e6be53d59a328edfd71f8c9660d8",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/liblogos_lez_rln_module-v4.2.1/liblogos_lez_rln_module-4.2.1.lgx",
-        "sha256": "4d61669f73374007c455047359d9c1e71bd118f82538c6d554def850548324b6",
-        "size": 221402603,
+        "releasedAt": "2026-10-14T19:13:30Z",
+        "publisherRef": "liblogos_lez_rln_module-v5.1.0",
+        "catalogCommit": "83ae6cc3ea54332ba050c408133be7cb8a40072c",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/liblogos_lez_rln_module-v5.1.0/liblogos_lez_rln_module-5.1.0.lgx",
+        "sha256": "7317c72e3848549c00a33fb3b0ddfd29d4cab41a437d755a4681883dfd49707f",
+        "size": 242916808,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -6978,10 +6992,10 @@
       },
       "source": {
         "repo": "logos-co/logos-rln-modules",
-        "commit": "eb02da8f0cbbfc892365f32a713087f7cdb9aaa0",
+        "commit": "d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47",
         "subdir": "logos-lez-rln-module",
-        "pinnedBy": "logos-co/logos-modules-release@34013bd5dfd2 submodules/logos-rln-modules (tag liblogos_lez_rln_module-v4.2.1)",
-        "url": "https://github.com/logos-co/logos-rln-modules/tree/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-lez-rln-module"
+        "pinnedBy": "logos-co/logos-modules-release@83ae6cc3ea54 submodules/logos-rln-modules (tag liblogos_lez_rln_module-v5.1.0)",
+        "url": "https://github.com/logos-co/logos-rln-modules/tree/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-lez-rln-module"
       },
       "dependencies": [],
       "requiredBy": [
@@ -6995,23 +7009,23 @@
       "interfaceSource": {
         "file": "interface.lidl",
         "from": "logos-lez-rln-module/rust-lib/liblogos_lez_rln_module.lidl",
-        "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-lez-rln-module/rust-lib/liblogos_lez_rln_module.lidl",
+        "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-lez-rln-module/rust-lib/liblogos_lez_rln_module.lidl",
         "lang": "lidl"
       },
       "docs": [
         {
           "path": "logos-lez-rln-module/CLAUDE.md",
-          "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-lez-rln-module/CLAUDE.md"
+          "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-lez-rln-module/CLAUDE.md"
         },
         {
           "path": "logos-lez-rln-module/README.md",
-          "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-lez-rln-module/README.md"
+          "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-lez-rln-module/README.md"
         }
       ],
       "qmlView": null,
       "contract": {
         "file": "liblogos_lez_rln_module.lidl",
-        "builtFrom": "eb02da8f0cbbfc892365f32a713087f7cdb9aaa0",
+        "builtFrom": "d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47",
         "stale": false
       },
       "api": {
@@ -7060,6 +7074,11 @@
             "name": "get_fee_state",
             "signature": "get_fee_state() -> tstr",
             "summary": "Since 4.2.0."
+          },
+          {
+            "name": "check_registry",
+            "signature": "check_registry(config_account_id: tstr) -> tstr",
+            "summary": "Whether a registry is usable here, and if not, why \u2014 so a caller can say \"not deployed on this chain\" instead of failing on its first read."
           }
         ],
         "events": []
@@ -7083,16 +7102,17 @@
       "catalog": {
         "repository": "Logos Official",
         "catalogRepo": "logos-co/logos-modules-release",
-        "latest": "0.10.0",
+        "latest": "0.12.0",
         "versions": [
+          "0.12.0",
           "0.10.0"
         ],
-        "releasedAt": "2026-09-30T20:28:36Z",
-        "publisherRef": "liblogos_rln_module-v0.10.0",
-        "catalogCommit": "34013bd5dfd2e6be53d59a328edfd71f8c9660d8",
-        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/liblogos_rln_module-v0.10.0/liblogos_rln_module-0.10.0.lgx",
-        "sha256": "5dd755bc1b0977f115f1f73f00bb59c38392e3d42ab2dce197039202466eb8c3",
-        "size": 51223998,
+        "releasedAt": "2026-10-14T19:21:21Z",
+        "publisherRef": "liblogos_rln_module-v0.12.0",
+        "catalogCommit": "83ae6cc3ea54332ba050c408133be7cb8a40072c",
+        "lgx": "https://github.com/logos-co/logos-modules-release/releases/download/liblogos_rln_module-v0.12.0/liblogos_rln_module-0.12.0.lgx",
+        "sha256": "fed1bdf371a37e25ad335d59d8914a5d6016d78de8ecf48cd7b6fb4b9f65bc8a",
+        "size": 51253623,
         "variants": [
           "darwin-arm64",
           "linux-amd64",
@@ -7102,10 +7122,10 @@
       },
       "source": {
         "repo": "logos-co/logos-rln-modules",
-        "commit": "eb02da8f0cbbfc892365f32a713087f7cdb9aaa0",
+        "commit": "d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47",
         "subdir": "logos-rln-module",
-        "pinnedBy": "logos-co/logos-modules-release@34013bd5dfd2 submodules/logos-rln-modules (tag liblogos_rln_module-v0.10.0)",
-        "url": "https://github.com/logos-co/logos-rln-modules/tree/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-rln-module"
+        "pinnedBy": "logos-co/logos-modules-release@83ae6cc3ea54 submodules/logos-rln-modules (tag liblogos_rln_module-v0.12.0)",
+        "url": "https://github.com/logos-co/logos-rln-modules/tree/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-rln-module"
       },
       "dependencies": [
         {
@@ -7124,27 +7144,27 @@
       "interfaceSource": {
         "file": "interface.lidl",
         "from": "logos-rln-module/rust-lib/liblogos_rln_module.lidl",
-        "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-rln-module/rust-lib/liblogos_rln_module.lidl",
+        "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-rln-module/rust-lib/liblogos_rln_module.lidl",
         "lang": "lidl"
       },
       "docs": [
         {
           "path": "logos-rln-module/README.md",
-          "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-rln-module/README.md"
+          "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-rln-module/README.md"
         },
         {
           "path": "logos-rln-module/docs/keystore-format.md",
-          "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-rln-module/docs/keystore-format.md"
+          "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-rln-module/docs/keystore-format.md"
         },
         {
           "path": "logos-rln-module/docs/wire-binding.md",
-          "url": "https://github.com/logos-co/logos-rln-modules/blob/eb02da8f0cbbfc892365f32a713087f7cdb9aaa0/logos-rln-module/docs/wire-binding.md"
+          "url": "https://github.com/logos-co/logos-rln-modules/blob/d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47/logos-rln-module/docs/wire-binding.md"
         }
       ],
       "qmlView": null,
       "contract": {
         "file": "liblogos_rln_module.lidl",
-        "builtFrom": "eb02da8f0cbbfc892365f32a713087f7cdb9aaa0",
+        "builtFrom": "d9f8b3d5ff93f6fd6fb363f5689098c07e81ac47",
         "stale": false
       },
       "api": {
